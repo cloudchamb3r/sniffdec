@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sniffdec"
+version = "0.1.0"
+description = ""
+authors = ["cloudchamb3r <jizon0123@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mitmproxy = "^10.3.0"
+m3u8 = "^5.0.0"
+pycryptodome = "^3.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
